@@ -1,0 +1,2 @@
+nav_demo
+-DCATKIN_DEVEL_PREFIX=/home/yang/map/devel -DCMAKE_INSTALL_PREFIX=/home/yang/map/install -G Unix Makefiles
