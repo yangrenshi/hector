@@ -33,6 +33,13 @@ roslaunch nav_demo de02_map_save.launch
 
 进行保存地图,地图文件所在位置由launch文件决定.
 
+也可以自己指定存储文件夹，会产生pgm和yaml文件
+rosrun map_server map_saver –f ~/rplidar_ws/src/data/map_0729/mymap
+
+读取地图数据
+
+rosrun map_server map_server  ~/rplidar_ws/src/data/map_0729/mymap.yaml
+
 4,全局定位:
 
 可使用AMCL需要先加载全局地图，然后启动 rviz 显示全局定位结果
